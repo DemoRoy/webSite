@@ -1,0 +1,275 @@
+{
+  "keys": "/Users/mac/Roy_Doc/webSite/admin/server/config/config.default.js",
+  "sequelize": {
+    "dialect": "/Users/mac/Roy_Doc/webSite/admin/server/config/config.default.js",
+    "database": "/Users/mac/Roy_Doc/webSite/admin/server/config/config.default.js",
+    "host": "/Users/mac/Roy_Doc/webSite/admin/server/config/config.default.js",
+    "port": "/Users/mac/Roy_Doc/webSite/admin/server/config/config.default.js",
+    "username": "/Users/mac/Roy_Doc/webSite/admin/server/config/config.default.js",
+    "password": "/Users/mac/Roy_Doc/webSite/admin/server/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/mac/Roy_Doc/webSite/admin/server/config/config.local.js",
+      "useSession": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "name": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "version": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "description": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "private": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "factory-girl": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "sequelize-cli": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "dev": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "test": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "sequelize": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "license": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "env": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "level": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "port": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
+}

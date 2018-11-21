@@ -1,0 +1,161 @@
+2018-11-21 21:23:44,797 ERROR 10314 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Utils.Promise.tap.then.catch.err (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:141:19)
+From previous event:
+    at ConnectionManager.connect (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:320:50)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at ConnectionManager._connect (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:320:8)
+    at ConnectionManager.getConnection (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:46)
+    at Promise.try (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:554:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:454:64)
+    at /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:454:28)
+    at Sequelize.authenticate (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:783:17)
+    at authenticate (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:236:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:560:3)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 10314
+hostname: xiaoshiyi.local
+
+2018-11-21 21:24:35,056 ERROR 10325 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Utils.Promise.tap.then.catch.err (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:141:19)
+From previous event:
+    at ConnectionManager.connect (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:320:50)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at ConnectionManager._connect (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:320:8)
+    at ConnectionManager.getConnection (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:46)
+    at Promise.try (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:554:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:454:64)
+    at /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:454:28)
+    at Sequelize.authenticate (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:783:17)
+    at authenticate (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:236:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:560:3)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 10325
+hostname: xiaoshiyi.local
+
+2018-11-21 21:29:57,459 ERROR 10342 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Utils.Promise.tap.then.catch.err (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:141:19)
+From previous event:
+    at ConnectionManager.connect (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:320:50)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at ConnectionManager._connect (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:320:8)
+    at ConnectionManager.getConnection (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:46)
+    at Promise.try (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:554:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:454:64)
+    at /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:454:28)
+    at Sequelize.authenticate (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:783:17)
+    at authenticate (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:236:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:560:3)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 10342
+hostname: xiaoshiyi.local
+
+2018-11-21 21:50:31,929 ERROR 10449 [-/::1/-/46ms POST /users] nodejs.SequelizeDatabaseError: Table 'web-development.users' doesn't exist
+    at Query.formatError (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/mysql2/lib/connection.js:455:32)
+    at PacketParser.onPacket (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/mysql2/lib/connection.js:73:18)
+    at PacketParser.executeStart (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/mysql2/lib/connection.js:80:31)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+From previous event:
+    at Query.run (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at model.save (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/sequelize/lib/model.js:2023:8)
+    at User.create (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/app/service/user.js:23:32)
+    at UserController.create (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/app/controller/user.js:22:41)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
+    at /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.users' doesn't exist","sql":"INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:50:31','2018-11-21 13:50:31');"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.users' doesn't exist","sql":"INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:50:31','2018-11-21 13:50:31');"}
+sql: "INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:50:31','2018-11-21 13:50:31');"
+pid: 10449
+hostname: xiaoshiyi.local
+

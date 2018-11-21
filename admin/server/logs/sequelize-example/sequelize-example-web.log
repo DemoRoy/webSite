@@ -1,0 +1,38 @@
+2018-11-21 21:34:36,933 INFO 10359 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-21 21:40:01,169 INFO 10406 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2018-11-21 21:41:31,750 INFO 10409 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-21 21:41:32,663 INFO 10410 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2018-11-21 21:41:34,384 INFO 10411 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-21 21:42:45,640 WARN 10411 [-/::1/-/16ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-21 21:42:45,643 WARN 10411 [-/::1/-/18ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-security/app/extend/context.js:157:17)
+    at csrf (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
+    at /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "invalid csrf token"
+pid: 10411
+hostname: xiaoshiyi.local
+
+2018-11-21 21:43:41,262 INFO 10425 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2018-11-21 21:44:01,896 INFO 10428 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-21 21:44:38,898 INFO 10428 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `user` ORDER BY `user`.`created_at` DESC, `user`.`id` DESC LIMIT 0, 10;
+2018-11-21 21:44:38,900 INFO 10428 [egg-sequelize](7ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `user`;
+2018-11-21 21:44:53,208 INFO 10428 [egg-sequelize](4ms) Executed (default): INSERT INTO `users` (`id`,`created_at`,`updated_at`) VALUES (DEFAULT,'2018-11-21 13:44:53','2018-11-21 13:44:53');
+2018-11-21 21:46:09,499 INFO 10428 [egg-sequelize](1ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:46:09','2018-11-21 13:46:09');
+2018-11-21 21:46:37,456 INFO 10428 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:46:37','2018-11-21 13:46:37');
+2018-11-21 21:46:38,634 INFO 10428 [egg-sequelize](3ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:46:38','2018-11-21 13:46:38');
+2018-11-21 21:46:39,763 INFO 10428 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:46:39','2018-11-21 13:46:39');
+2018-11-21 21:48:02,655 INFO 10437 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-21 21:48:30,975 INFO 10437 [egg-sequelize](1ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:48:30','2018-11-21 13:48:30');
+2018-11-21 21:50:29,307 INFO 10449 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-21 21:50:31,920 INFO 10449 [egg-sequelize](1ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:50:31','2018-11-21 13:50:31');
+2018-11-21 21:51:35,518 INFO 10464 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-21 21:54:53,111 INFO 10494 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result

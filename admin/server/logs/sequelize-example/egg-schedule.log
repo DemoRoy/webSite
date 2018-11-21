@@ -1,0 +1,6 @@
+2018-11-21 21:34:36,948 INFO 10358 [Timer] /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-11-22 00:00:00.000
+2018-11-21 21:34:36,949 INFO 10358 [Timer] /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-22 00:00:01.000
+2018-11-21 21:50:29,321 INFO 10448 [Timer] /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-11-22 00:00:00.000
+2018-11-21 21:50:29,322 INFO 10448 [Timer] /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-22 00:00:01.000
+2018-11-21 21:54:53,128 INFO 10493 [Timer] /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-11-22 00:00:00.000
+2018-11-21 21:54:53,129 INFO 10493 [Timer] /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-22 00:00:01.000
