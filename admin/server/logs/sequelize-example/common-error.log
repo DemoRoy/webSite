@@ -159,3 +159,498 @@ sql: "INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (
 pid: 10449
 hostname: xiaoshiyi.local
 
+2018-11-22 12:53:40,865 ERROR 11766 nodejs.TypeError: database.authenticate is not a function
+    at authenticate (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at authenticate (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-sequelize/lib/loader.js:138:13)
+
+pid: 11766
+hostname: bogon
+
+2018-11-22 13:27:30,626 ERROR 11795 nodejs.ClusterClientNoResponseError: client no response in 971449ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 11795
+hostname: bogon
+
+2018-11-26 22:29:20,025 ERROR 22603 [-/::1/-/19ms POST /code] nodejs.SyntaxError: Identifier 'code' has already been declared
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+
+pid: 22603
+hostname: xiaoshiyi.local
+
+2018-11-26 22:33:35,050 ERROR 22628 [-/::1/-/21ms POST /code] nodejs.SyntaxError: Identifier 'code' has already been declared
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+
+pid: 22628
+hostname: xiaoshiyi.local
+
+2018-11-26 22:36:04,609 ERROR 22651 [-/::1/-/41ms POST /code] nodejs.SequelizeDatabaseError: Table 'web-development.codes' doesn't exist
+    at Query.formatError (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:455:32)
+    at PacketParser.onPacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:73:18)
+    at PacketParser.executeStart (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:80:31)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+From previous event:
+    at Query.run (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at model.save (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:2023:8)
+    at CodeController.create (/Users/mac/Roy_Doc/webSite/admin/server/app/controller/code.js:9:41)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.codes' doesn't exist","sql":"INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:36:04','2018-11-26 14:36:04');"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.codes' doesn't exist","sql":"INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:36:04','2018-11-26 14:36:04');"}
+sql: "INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:36:04','2018-11-26 14:36:04');"
+pid: 22651
+hostname: xiaoshiyi.local
+
+2018-11-26 22:38:33,409 ERROR 22655 [-/::1/-/34ms POST /code] nodejs.SequelizeDatabaseError: Table 'web-development.codes' doesn't exist
+    at Query.formatError (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:455:32)
+    at PacketParser.onPacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:73:18)
+    at PacketParser.executeStart (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:80:31)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+From previous event:
+    at Query.run (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at model.save (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:2023:8)
+    at CodeController.create (/Users/mac/Roy_Doc/webSite/admin/server/app/controller/code.js:9:41)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.codes' doesn't exist","sql":"INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:38:33','2018-11-26 14:38:33');"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.codes' doesn't exist","sql":"INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:38:33','2018-11-26 14:38:33');"}
+sql: "INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:38:33','2018-11-26 14:38:33');"
+pid: 22655
+hostname: xiaoshiyi.local
+
+2018-11-26 22:42:15,719 ERROR 22668 [-/::1/-/44ms POST /code] nodejs.SequelizeDatabaseError: Table 'web-development.codes' doesn't exist
+    at Query.formatError (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:455:32)
+    at PacketParser.onPacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:73:18)
+    at PacketParser.executeStart (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:80:31)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+From previous event:
+    at Query.run (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at model.save (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:2023:8)
+    at CodeController.create (/Users/mac/Roy_Doc/webSite/admin/server/app/controller/code.js:9:41)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.codes' doesn't exist","sql":"INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:42:15','2018-11-26 14:42:15');"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.codes' doesn't exist","sql":"INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:42:15','2018-11-26 14:42:15');"}
+sql: "INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:42:15','2018-11-26 14:42:15');"
+pid: 22668
+hostname: xiaoshiyi.local
+
+2018-11-26 22:48:18,284 ERROR 22678 [-/::1/-/52ms POST /code] nodejs.SequelizeDatabaseError: Table 'web-development.codes' doesn't exist
+    at Query.formatError (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:455:32)
+    at PacketParser.onPacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:73:18)
+    at PacketParser.executeStart (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:80:31)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+From previous event:
+    at Query.run (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at model.save (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:2023:8)
+    at CodeController.create (/Users/mac/Roy_Doc/webSite/admin/server/app/controller/code.js:9:41)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.codes' doesn't exist","sql":"INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:48:18','2018-11-26 14:48:18');"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.codes' doesn't exist","sql":"INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:48:18','2018-11-26 14:48:18');"}
+sql: "INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:48:18','2018-11-26 14:48:18');"
+pid: 22678
+hostname: xiaoshiyi.local
+
+2018-11-27 00:48:46,087 ERROR 22667 nodejs.ClusterClientNoResponseError: client no response in 7209418ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 22667
+hostname: xiaoshiyi.local
+
+2018-11-27 01:14:30,844 ERROR 22667 nodejs.ClusterClientNoResponseError: client no response in 1544754ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 22667
+hostname: xiaoshiyi.local
+
+2018-11-27 05:15:07,005 ERROR 22667 nodejs.ClusterClientNoResponseError: client no response in 14416149ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 22667
+hostname: xiaoshiyi.local
+
+2018-11-27 06:05:54,457 ERROR 22667 nodejs.ClusterClientNoResponseError: client no response in 3047451ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 22667
+hostname: xiaoshiyi.local
+
+2018-11-27 06:21:47,444 ERROR 22667 nodejs.ClusterClientNoResponseError: client no response in 932060ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 22667
+hostname: xiaoshiyi.local
+
+2018-11-27 07:12:26,081 ERROR 22667 nodejs.ClusterClientNoResponseError: client no response in 3018624ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 22667
+hostname: xiaoshiyi.local
+
+2018-11-27 09:39:48,004 ERROR 22667 nodejs.ClusterClientNoResponseError: client no response in 8820988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 22667
+hostname: xiaoshiyi.local
+
+2018-11-27 13:12:31,966 ERROR 27188 [-/::1/-/44ms POST /code] nodejs.SequelizeDatabaseError: Table 'web-development.codes' doesn't exist
+    at Query.formatError (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:455:32)
+    at PacketParser.onPacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:73:18)
+    at PacketParser.executeStart (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:80:31)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+From previous event:
+    at Query.run (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at model.save (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:2023:8)
+    at CodeController.create (/Users/mac/Roy_Doc/webSite/admin/server/app/controller/code.js:9:41)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.codes' doesn't exist","sql":"INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:12:31','2018-11-27 05:12:31');"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'web-development.codes' doesn't exist","sql":"INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:12:31','2018-11-27 05:12:31');"}
+sql: "INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:12:31','2018-11-27 05:12:31');"
+pid: 27188
+hostname: bogon
+
+2018-11-27 13:14:20,656 ERROR 27225 [-/::1/-/53ms POST /code] nodejs.SequelizeDatabaseError: Unknown column 'updated_at' in 'field list'
+    at Query.formatError (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:455:32)
+    at PacketParser.onPacket (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:73:18)
+    at PacketParser.executeStart (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/mysql2/lib/connection.js:80:31)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+From previous event:
+    at Query.run (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:696:18)
+    at tryOnImmediate (timers.js:667:5)
+    at processImmediate (timers.js:649:5)
+From previous event:
+    at model.save (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/sequelize/lib/model.js:2023:8)
+    at CodeController.create (/Users/mac/Roy_Doc/webSite/admin/server/app/controller/code.js:9:41)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'updated_at' in 'field list'","sql":"INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:14:20','2018-11-27 05:14:20');"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'updated_at' in 'field list'","sql":"INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:14:20','2018-11-27 05:14:20');"}
+sql: "INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:14:20','2018-11-27 05:14:20');"
+pid: 27225
+hostname: bogon
+

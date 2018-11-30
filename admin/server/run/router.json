@@ -203,5 +203,40 @@
     "stack": [
       "wrappedController"
     ]
+  },
+  {
+    "name": "codes",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/code",
+    "regexp": "/^\\/code(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_code",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/code/:id",
+    "regexp": "/^\\/code\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
   }
 ]

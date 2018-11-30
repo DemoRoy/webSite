@@ -195,6 +195,7 @@
       "dependencies": {
         "egg": "^2.10.0",
         "egg-sequelize": "^4.0.1",
+        "md5": "^2.2.1",
         "mysql2": "^1.6.1"
       },
       "devDependencies": {
@@ -216,7 +217,7 @@
         "autod": "autod",
         "sequelize": "sequelize --"
       },
-      "author": "Qi Yu <njuyuqi@gmail.coom>",
+      "author": "Roy Tang <roy_tang@linnk.net>",
       "license": "MIT"
     },
     "baseDir": "/Users/mac/Roy_Doc/webSite/admin/server",
