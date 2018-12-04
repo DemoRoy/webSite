@@ -9,15 +9,15 @@ module.exports = app => {
       primaryKey: true,
       autoIncrement: true,
     },
-    name: STRING(30),
-    age: INTEGER,
+    nick_name: STRING(30),
+    password: STRING,
     created_at: DATE,
     updated_at: DATE,
   });
 
-  User.prototype.associate = function() {
-    app.model.User.hasMany(app.model.Post, { as: 'posts' });
-  };
+  // User.prototype.associate = function() {
+  //   app.model.User.hasMany(app.model.Post, { as: 'posts' });
+  // };
 
   return User;
 };

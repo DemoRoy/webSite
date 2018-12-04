@@ -103,6 +103,7 @@
         "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-static/config/locales",
         "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-view/config/locales",
         "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-sequelize/config/locales",
+        "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-validate/config/locales",
         "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/locales",
         "/Users/mac/Roy_Doc/webSite/admin/server/config/locales"
       ],
@@ -180,6 +181,7 @@
       "username": "root",
       "password": "<String len: 11>"
     },
+    "validate": {},
     "env": "local",
     "name": "sequelize-example",
     "keys": "<String len: 35>",
@@ -195,6 +197,7 @@
       "dependencies": {
         "egg": "^2.10.0",
         "egg-sequelize": "^4.0.1",
+        "egg-validate": "^2.0.2",
         "md5": "^2.2.1",
         "mysql2": "^1.6.1"
       },
@@ -494,6 +497,17 @@
       "from": "/Users/mac/Roy_Doc/webSite/admin/server/config/plugin.js",
       "path": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-sequelize",
       "version": "4.2.0"
+    },
+    "validate": {
+      "enable": true,
+      "package": "egg-validate",
+      "name": "validate",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/mac/Roy_Doc/webSite/admin/server/config/plugin.js",
+      "path": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-validate",
+      "version": "2.0.2"
     }
   }
 }

@@ -1,134 +1,44 @@
-2018-11-21 21:34:36,933 INFO 10359 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-21 21:40:01,169 INFO 10406 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2018-11-21 21:41:31,750 INFO 10409 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-21 21:41:32,663 INFO 10410 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
-2018-11-21 21:41:34,384 INFO 10411 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-21 21:42:45,640 WARN 10411 [-/::1/-/16ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-11-21 21:42:45,643 WARN 10411 [-/::1/-/18ms POST /] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa/lib/context.js:97:11)
-    at Object.assertCsrf (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-security/app/extend/context.js:157:17)
-    at csrf (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
-    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
-    at /Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:34:12
-    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
-    at session (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-session/index.js:41:13)
-    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
-    at overrideMethod (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-override/index.js:38:12)
-    at dispatch (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-compose/index.js:42:32)
-    at bodyParser (/Users/mac/Roy_Doc/webSite/admin/egg-example-sequelize/examples/sequelize/node_modules/koa-bodyparser/index.js:86:11)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-message: "invalid csrf token"
-pid: 10411
-hostname: xiaoshiyi.local
-
-2018-11-21 21:43:41,262 INFO 10425 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2018-11-21 21:44:01,896 INFO 10428 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-21 21:44:38,898 INFO 10428 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `user` ORDER BY `user`.`created_at` DESC, `user`.`id` DESC LIMIT 0, 10;
-2018-11-21 21:44:38,900 INFO 10428 [egg-sequelize](7ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `user`;
-2018-11-21 21:44:53,208 INFO 10428 [egg-sequelize](4ms) Executed (default): INSERT INTO `users` (`id`,`created_at`,`updated_at`) VALUES (DEFAULT,'2018-11-21 13:44:53','2018-11-21 13:44:53');
-2018-11-21 21:46:09,499 INFO 10428 [egg-sequelize](1ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:46:09','2018-11-21 13:46:09');
-2018-11-21 21:46:37,456 INFO 10428 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:46:37','2018-11-21 13:46:37');
-2018-11-21 21:46:38,634 INFO 10428 [egg-sequelize](3ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:46:38','2018-11-21 13:46:38');
-2018-11-21 21:46:39,763 INFO 10428 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:46:39','2018-11-21 13:46:39');
-2018-11-21 21:48:02,655 INFO 10437 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-21 21:48:30,975 INFO 10437 [egg-sequelize](1ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:48:30','2018-11-21 13:48:30');
-2018-11-21 21:50:29,307 INFO 10449 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-21 21:50:31,920 INFO 10449 [egg-sequelize](1ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-21 13:50:31','2018-11-21 13:50:31');
-2018-11-21 21:51:35,518 INFO 10464 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-21 21:54:53,111 INFO 10494 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-22 12:54:34,574 INFO 11796 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-22 12:55:41,056 INFO 11796 [egg-sequelize](16ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `user`;
-2018-11-22 12:55:41,057 INFO 11796 [egg-sequelize](16ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `user` ORDER BY `user`.`created_at` DESC, `user`.`id` DESC LIMIT 0, 10;
-2018-11-22 12:56:18,569 INFO 11796 [egg-sequelize](13ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-22 04:56:18','2018-11-22 04:56:18');
-2018-11-22 12:56:19,707 INFO 11796 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-22 04:56:19','2018-11-22 04:56:19');
-2018-11-22 12:56:20,566 INFO 11796 [egg-sequelize](1ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-22 04:56:20','2018-11-22 04:56:20');
-2018-11-22 12:56:21,345 INFO 11796 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-22 04:56:21','2018-11-22 04:56:21');
-2018-11-22 12:56:22,006 INFO 11796 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-22 04:56:22','2018-11-22 04:56:22');
-2018-11-22 12:56:22,701 INFO 11796 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-22 04:56:22','2018-11-22 04:56:22');
-2018-11-22 12:56:23,925 INFO 11796 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-22 04:56:23','2018-11-22 04:56:23');
-2018-11-22 12:56:24,611 INFO 11796 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,'Roy','27','2018-11-22 04:56:24','2018-11-22 04:56:24');
-2018-11-22 12:56:28,244 INFO 11796 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `user`;
-2018-11-22 12:56:28,248 INFO 11796 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `user` ORDER BY `user`.`created_at` DESC, `user`.`id` DESC LIMIT 0, 10;
-2018-11-22 13:00:18,271 INFO 11824 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2018-11-22 13:00:19,126 INFO 11826 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-22 13:00:21,884 INFO 11826 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `user`;
-2018-11-22 13:00:21,889 INFO 11826 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `user` ORDER BY `user`.`created_at` DESC, `user`.`id` DESC LIMIT 0, 5;
-2018-11-22 13:02:28,041 INFO 11826 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `posts` AS `post`;
-2018-11-22 13:02:28,043 INFO 11826 [egg-sequelize](5ms) Executed (default): SELECT `id`, `title`, `user_id`, `created_at`, `updated_at` FROM `posts` AS `post` ORDER BY `post`.`created_at` DESC, `post`.`id` DESC LIMIT 0, 10;
-2018-11-22 13:02:32,792 INFO 11826 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `user`;
-2018-11-22 13:02:32,792 INFO 11826 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `user` ORDER BY `user`.`created_at` DESC, `user`.`id` DESC LIMIT 0, 5;
-2018-11-26 20:44:41,478 INFO 22329 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 20:47:44,149 INFO 22337 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 20:49:23,514 INFO 22347 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 20:49:24,365 INFO 22348 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 20:50:03,979 INFO 22351 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 20:50:04,806 INFO 22352 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 20:52:29,870 INFO 22357 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 20:52:30,791 INFO 22359 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 22:29:11,191 INFO 22603 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 22:30:39,281 INFO 22612 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 22:31:00,263 INFO 22619 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 22:31:04,908 INFO 22622 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 22:31:55,447 INFO 22628 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 22:36:02,769 INFO 22651 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 22:36:04,602 INFO 22651 [egg-sequelize](1ms) Executed (default): INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:36:04','2018-11-26 14:36:04');
-2018-11-26 22:38:31,783 INFO 22655 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 22:38:33,404 INFO 22655 [egg-sequelize](1ms) Executed (default): INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:38:33','2018-11-26 14:38:33');
-2018-11-26 22:42:10,643 INFO 22668 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 22:42:15,712 INFO 22668 [egg-sequelize](1ms) Executed (default): INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:42:15','2018-11-26 14:42:15');
-2018-11-26 22:48:16,673 INFO 22678 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-26 22:48:18,277 INFO 22678 [egg-sequelize](0ms) Executed (default): INSERT INTO `codes` (`id`,`created_at`,`updated_at`) VALUES (NULL,'2018-11-26 14:48:18','2018-11-26 14:48:18');
-2018-11-27 09:42:57,511 INFO 22844 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:09:26,552 INFO 27188 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:12:31,960 INFO 27188 [egg-sequelize](1ms) Executed (default): INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:12:31','2018-11-27 05:12:31');
-2018-11-27 13:12:43,794 INFO 27224 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:12:44,658 INFO 27225 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:14:20,649 INFO 27225 [egg-sequelize](1ms) Executed (default): INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:14:20','2018-11-27 05:14:20');
-2018-11-27 13:15:37,031 INFO 27233 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:15:53,296 INFO 27236 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:15:54,125 INFO 27237 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:16:27,874 INFO 27239 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:17:15,970 INFO 27239 [egg-sequelize](2ms) Executed (default): INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:17:15','2018-11-27 05:17:15');
-2018-11-27 13:18:36,615 INFO 27244 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:18:39,825 INFO 27247 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:19:27,799 INFO 27252 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:19:28,662 INFO 27254 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:19:40,787 INFO 27257 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 13:19:51,609 INFO 27257 [egg-sequelize](4ms) Executed (default): SELECT `id`, `code`, `created_at`, `updated_at` FROM `codes` AS `code` WHERE `code`.`id` = '1';
-2018-11-27 13:19:51,614 INFO 27257 [egg-sequelize](2ms) Executed (default): DELETE FROM `codes` WHERE `id` = 1 LIMIT 1
-2018-11-27 13:20:03,271 INFO 27257 [egg-sequelize](0ms) Executed (default): SELECT `id`, `code`, `created_at`, `updated_at` FROM `codes` AS `code` WHERE `code`.`id` = '1';
-2018-11-27 13:20:39,116 INFO 27257 [egg-sequelize](1ms) Executed (default): INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:20:39','2018-11-27 05:20:39');
-2018-11-27 13:20:41,578 INFO 27257 [egg-sequelize](2ms) Executed (default): INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:20:41','2018-11-27 05:20:41');
-2018-11-27 13:20:42,469 INFO 27257 [egg-sequelize](3ms) Executed (default): INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:20:42','2018-11-27 05:20:42');
-2018-11-27 13:20:43,585 INFO 27257 [egg-sequelize](2ms) Executed (default): INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:20:43','2018-11-27 05:20:43');
-2018-11-27 13:20:44,728 INFO 27257 [egg-sequelize](1ms) Executed (default): INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:20:44','2018-11-27 05:20:44');
-2018-11-27 13:21:05,831 INFO 27257 [egg-sequelize](0ms) Executed (default): SELECT `id`, `code`, `created_at`, `updated_at` FROM `codes` AS `code` WHERE `code`.`id` = '6';
-2018-11-27 13:21:05,833 INFO 27257 [egg-sequelize](1ms) Executed (default): DELETE FROM `codes` WHERE `id` = 6 LIMIT 1
-2018-11-27 13:21:14,182 INFO 27257 [egg-sequelize](2ms) Executed (default): INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 05:21:14','2018-11-27 05:21:14');
-2018-11-27 13:28:56,739 INFO 27360 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:35:50,108 INFO 29429 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:36:12,622 INFO 29429 [egg-sequelize](30ms) Executed (default): INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-27 12:36:12','2018-11-27 12:36:12');
-2018-11-27 20:36:21,175 INFO 29438 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:37:27,895 INFO 29449 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:38:05,056 INFO 29452 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:38:11,099 INFO 29454 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:38:12,128 INFO 29455 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:38:23,656 INFO 29455 [egg-sequelize](7ms) Executed (default): SELECT `id`, `code`, `created_at`, `updated_at` FROM `codes` AS `code` WHERE `code`.`id` = '1';
-2018-11-27 20:39:01,167 INFO 29455 [egg-sequelize](2ms) Executed (default): SELECT `id`, `code`, `created_at`, `updated_at` FROM `codes` AS `code` WHERE `code`.`id` = '2';
-2018-11-27 20:39:01,177 INFO 29455 [egg-sequelize](5ms) Executed (default): DELETE FROM `codes` WHERE `id` = 2 LIMIT 1
-2018-11-27 20:39:06,829 INFO 29462 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:39:07,818 INFO 29463 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:39:08,651 INFO 29464 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:40:09,463 INFO 29466 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:40:10,505 INFO 29468 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:40:11,161 INFO 29469 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:40:45,686 INFO 29471 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:40:46,583 INFO 29472 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:40:50,524 INFO 29474 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:40:52,949 INFO 29476 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:40:54,744 INFO 29477 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:40:56,371 INFO 29478 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:41:20,154 INFO 29480 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
-2018-11-27 20:41:21,017 INFO 29481 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-30 13:06:37,780 INFO 38256 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2018-11-30 13:07:09,186 INFO 38256 [egg-sequelize](3ms) Executed (default): INSERT INTO `codes` (`id`,`code`,`created_at`,`updated_at`) VALUES (DEFAULT,'e457c3ba9e0055b9f7bb4ed5ec10ff13','2018-11-30 05:07:09','2018-11-30 05:07:09');
+2018-12-04 20:26:54,792 INFO 16692 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:33:04,433 INFO 16863 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:33:48,149 INFO 16884 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:33:50,357 WARN 16884 [-/::1/-/11ms POST /signin] [ { message: 'required', field: 'nickName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2018-12-04 20:34:23,518 WARN 16884 [-/::1/-/2ms POST /signin] [ { message: 'required', field: 'password', code: 'missing_field' } ]
+2018-12-04 20:35:15,844 INFO 16911 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:35:48,068 INFO 16924 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:35:52,622 WARN 16924 [-/::1/-/15ms POST /signin] undefined
+2018-12-04 20:36:06,614 INFO 16932 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:37:36,290 INFO 16960 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:38:13,348 INFO 16973 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:39:35,973 INFO 17002 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:48:38,853 INFO 17177 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:48:39,723 INFO 17179 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:50:17,553 INFO 17212 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:50:18,421 INFO 17213 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:50:26,422 INFO 17213 [egg-sequelize](2ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nickName` = 'TryaWcj' AND `user`.`password` = 'Number(27)';
+2018-12-04 20:50:26,431 WARN 17213 [-/::1/-/38ms POST /signin] undefined
+2018-12-04 20:50:40,073 INFO 17213 [egg-sequelize](1ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nickName` = 'TryaWcj' AND `user`.`password` = '123456';
+2018-12-04 20:50:40,075 WARN 17213 [-/::1/-/10ms POST /signin] undefined
+2018-12-04 20:52:19,582 INFO 17253 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:54:25,049 INFO 17291 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:54:29,399 INFO 17291 [egg-sequelize](1ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'TryaWcj' AND `user`.`password` = 'e10adc3949ba59abbe56e057f20f883e';
+2018-12-04 20:55:04,804 INFO 17305 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:55:13,392 INFO 17305 [egg-sequelize](1ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'TryaWcj' AND `user`.`password` = 'e10adc3949ba59abbe56e057f20f883e';
+2018-12-04 20:55:34,706 INFO 17316 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:55:39,520 INFO 17316 [egg-sequelize](1ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'TryaWcj' AND `user`.`password` = 'e10adc3949ba59abbe56e057f20f883e';
+2018-12-04 20:56:14,270 INFO 17316 [egg-sequelize](1ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'Roy' AND `user`.`password` = '6e14c385c3b079eb8455e0b30f9821a7';
+2018-12-04 20:57:26,510 INFO 17353 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:57:28,681 INFO 17353 [egg-sequelize](2ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'Roy' AND `user`.`password` = '6e14c385c3b079eb8455e0b30f9821a7';
+2018-12-04 20:57:32,128 INFO 17353 [egg-sequelize](0ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'Roy' AND `user`.`password` = 'd8e2820b2d4b3f03eefde4499411a938';
+2018-12-04 20:57:46,369 WARN 17353 [-/::1/-/1ms POST /signin] [ { message: 'required', field: 'nickName', code: 'missing_field' } ]
+2018-12-04 20:57:49,567 INFO 17353 [egg-sequelize](1ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'Roy' AND `user`.`password` = 'd8e2820b2d4b3f03eefde4499411a938';
+2018-12-04 20:58:12,208 INFO 17369 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:58:13,553 INFO 17371 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:58:41,295 INFO 17385 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:58:42,174 INFO 17386 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-12-04 20:58:50,289 INFO 17386 [egg-sequelize](1ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'Roy' AND `user`.`password` = 'd8e2820b2d4b3f03eefde4499411a938';
+2018-12-04 21:30:05,091 INFO 17386 [egg-sequelize](1ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'Roy' AND `user`.`password` = 'd8e2820b2d4b3f03eefde4499411a938';
+2018-12-04 21:34:32,415 INFO 17386 [egg-sequelize](1ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'Roy' AND `user`.`password` = 'd8e2820b2d4b3f03eefde4499411a938';
+2018-12-04 21:34:44,504 INFO 17386 [egg-sequelize](2ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'Roy' AND `user`.`password` = '6e14c385c3b079eb8455e0b30f9821a7';
+2018-12-04 21:35:07,414 INFO 17386 [egg-sequelize](1ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'Luna' AND `user`.`password` = '6e14c385c3b079eb8455e0b30f9821a7';
+2018-12-04 21:35:32,112 INFO 17386 [egg-sequelize](1ms) Executed (default): SELECT `id`, `nick_name`, `password`, `created_at`, `updated_at` FROM `users` AS `user` WHERE `user`.`nick_name` = 'Luna' AND `user`.`password` = '3a7677192a66483ad8d8667fb68d8247';

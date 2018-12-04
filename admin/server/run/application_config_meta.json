@@ -146,6 +146,7 @@
     "defaultViewEngine": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-view/config/config.default.js"
   },
+  "validate": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-validate/config/config.default.js",
   "env": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
   "name": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
   "proxy": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
@@ -160,6 +161,7 @@
     "dependencies": {
       "egg": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
       "egg-sequelize": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
       "md5": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js",
       "mysql2": "/Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg/config/config.default.js"
     },
