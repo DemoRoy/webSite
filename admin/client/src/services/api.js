@@ -103,10 +103,22 @@ export async function updateFakeList(params) {
   });
 }
 
+// 登录
+// export async function fakeAccountLogin(params) {
+//   return request('/api/login/account', {
+//     method: 'POST',
+//     body: params,
+//   });
+// }
+
 export async function fakeAccountLogin(params) {
-  return request('/api/login/account', {
+  const { userName, password } = params;
+  return request('/api/signin', {
     method: 'POST',
-    body: params,
+    body: {
+      nickName: userName,
+      password,
+    },
   });
 }
 

@@ -16,12 +16,12 @@ module.exports = {
     */
     await queryInterface.bulkInsert('Users', [{
       nick_name: 'Roy',
-      password: MD5('TryaWcj1314'),
+      password: MD5('tryawcj1314'),
       created_at: new Date(),
       updated_at: new Date(),
     },{
       nick_name: 'Luna',
-      password: MD5('WcjaTry1314'),
+      password: MD5('wcjatry1314'),
       created_at: new Date(),
       updated_at: new Date(),
     }])

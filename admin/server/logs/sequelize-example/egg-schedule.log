@@ -1,2 +1,4 @@
 2018-12-04 20:26:54,807 INFO 16690 [Timer] /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-12-05 00:00:00.000
 2018-12-04 20:26:54,807 INFO 16690 [Timer] /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-12-05 00:00:01.000
+2018-12-05 21:31:30,396 INFO 34512 [Timer] /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-12-06 00:00:00.000
+2018-12-05 21:31:30,397 INFO 34512 [Timer] /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-12-06 00:00:01.000

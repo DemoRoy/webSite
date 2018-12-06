@@ -5,8 +5,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/signin",
-    "regexp": "/^\\/signin(?:\\/(?=$))?$/",
+    "path": "/api/signin",
+    "regexp": "/^\\/api\\/signin(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

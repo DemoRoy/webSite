@@ -15,10 +15,10 @@ class SigninService extends Service {
 		if(!user) {
 			this.ctx.throw(404, 'user not found');
 		} else if(user.length === 0) {
-			return { success: false, message: '用户名或密码错误' };
+			return { currentAuthority: "admin", status: "error", type: "account" };
 		};
 
-		return { success: true, message: '登录成功' };
+		return { currentAuthority: "admin", status: "ok", type: "account" };
 	}
 }
 
