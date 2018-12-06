@@ -1,0 +1,30 @@
+2018-12-06 12:32:10,627 ERROR 41218 nodejs.ClusterClientNoResponseError: client no response in 2160791ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 41218
+hostname: bogon
+
+2018-12-06 12:40:52,415 ERROR 41218 nodejs.ClusterClientNoResponseError: client no response in 481767ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 41218
+hostname: bogon
+
+2018-12-06 13:28:55,661 ERROR 41218 nodejs.ClusterClientNoResponseError: client no response in 1123025ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/mac/Roy_Doc/webSite/admin/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 41218
+hostname: bogon
+

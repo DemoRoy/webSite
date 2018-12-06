@@ -473,3 +473,201 @@
 2018-12-05 21:57:11,792 INFO 35088 [egg:core] dump config after load, 4ms
 2018-12-05 21:57:11,826 INFO 35088 [egg-watcher:application] watcher start success
 2018-12-05 21:57:11,844 INFO 35088 [egg:core] dump config after ready, 3ms
+2018-12-06 11:55:29,448 INFO 41219 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 11:55:29,478 INFO 41219 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 11:55:29,478 INFO 41219 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 11:55:29,479 INFO 41219 [egg-multipart] stream mode enable
+2018-12-06 11:55:29,774 INFO 41219 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 11:55:29,776 INFO 41219 [egg-security] use methodnoallow middleware
+2018-12-06 11:55:29,778 INFO 41219 [egg-security] use noopen middleware
+2018-12-06 11:55:29,779 INFO 41219 [egg-security] use nosniff middleware
+2018-12-06 11:55:29,780 INFO 41219 [egg-security] use xssProtection middleware
+2018-12-06 11:55:29,781 INFO 41219 [egg-security] use xframe middleware
+2018-12-06 11:55:29,782 INFO 41219 [egg-security] use dta middleware
+2018-12-06 11:55:29,782 INFO 41219 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 11:55:29,796 INFO 41219 [egg:core] dump config after load, 6ms
+2018-12-06 11:55:29,829 INFO 41219 [egg-watcher:application] watcher start success
+2018-12-06 11:55:29,851 INFO 41219 [egg:core] dump config after ready, 3ms
+2018-12-06 12:32:10,626 WARN 41219 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-12-06 12:40:52,415 WARN 41219 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-12-06 13:28:55,661 WARN 41219 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-12-06 21:58:50,297 INFO 55105 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 21:58:50,331 INFO 55105 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 21:58:50,331 INFO 55105 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 21:58:50,332 INFO 55105 [egg-multipart] stream mode enable
+2018-12-06 21:58:50,664 INFO 55105 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 21:58:50,667 INFO 55105 [egg-security] use methodnoallow middleware
+2018-12-06 21:58:50,668 INFO 55105 [egg-security] use noopen middleware
+2018-12-06 21:58:50,669 INFO 55105 [egg-security] use nosniff middleware
+2018-12-06 21:58:50,671 INFO 55105 [egg-security] use xssProtection middleware
+2018-12-06 21:58:50,672 INFO 55105 [egg-security] use xframe middleware
+2018-12-06 21:58:50,673 INFO 55105 [egg-security] use dta middleware
+2018-12-06 21:58:50,673 INFO 55105 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 21:58:50,689 INFO 55105 [egg:core] dump config after load, 8ms
+2018-12-06 21:58:50,722 INFO 55105 [egg-watcher:application] watcher start success
+2018-12-06 21:58:50,745 INFO 55105 [egg:core] dump config after ready, 3ms
+2018-12-06 22:15:10,318 INFO 55436 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 22:15:10,355 INFO 55436 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 22:15:10,355 INFO 55436 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 22:15:10,356 INFO 55436 [egg-multipart] stream mode enable
+2018-12-06 22:15:10,837 INFO 55436 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 22:15:10,839 INFO 55436 [egg-security] use methodnoallow middleware
+2018-12-06 22:15:10,840 INFO 55436 [egg-security] use noopen middleware
+2018-12-06 22:15:10,841 INFO 55436 [egg-security] use nosniff middleware
+2018-12-06 22:15:10,841 INFO 55436 [egg-security] use xssProtection middleware
+2018-12-06 22:15:10,842 INFO 55436 [egg-security] use xframe middleware
+2018-12-06 22:15:10,843 INFO 55436 [egg-security] use dta middleware
+2018-12-06 22:15:10,843 INFO 55436 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 22:15:10,855 INFO 55436 [egg:core] dump config after load, 7ms
+2018-12-06 22:15:10,903 INFO 55436 [egg-watcher:application] watcher start success
+2018-12-06 22:15:10,927 INFO 55436 [egg:core] dump config after ready, 4ms
+2018-12-06 22:15:11,432 INFO 55441 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 22:15:11,464 INFO 55441 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 22:15:11,464 INFO 55441 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 22:15:11,465 INFO 55441 [egg-multipart] stream mode enable
+2018-12-06 22:15:11,708 INFO 55441 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 22:15:11,711 INFO 55441 [egg-security] use methodnoallow middleware
+2018-12-06 22:15:11,711 INFO 55441 [egg-security] use noopen middleware
+2018-12-06 22:15:11,711 INFO 55441 [egg-security] use nosniff middleware
+2018-12-06 22:15:11,712 INFO 55441 [egg-security] use xssProtection middleware
+2018-12-06 22:15:11,712 INFO 55441 [egg-security] use xframe middleware
+2018-12-06 22:15:11,712 INFO 55441 [egg-security] use dta middleware
+2018-12-06 22:15:11,712 INFO 55441 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 22:15:11,724 INFO 55441 [egg:core] dump config after load, 6ms
+2018-12-06 22:15:11,762 INFO 55441 [egg-watcher:application] watcher start success
+2018-12-06 22:15:11,784 INFO 55441 [egg:core] dump config after ready, 3ms
+2018-12-06 22:15:15,844 INFO 55443 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 22:15:15,877 INFO 55443 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 22:15:15,877 INFO 55443 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 22:15:15,878 INFO 55443 [egg-multipart] stream mode enable
+2018-12-06 22:15:16,154 INFO 55443 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 22:15:16,156 INFO 55443 [egg-security] use methodnoallow middleware
+2018-12-06 22:15:16,157 INFO 55443 [egg-security] use noopen middleware
+2018-12-06 22:15:16,157 INFO 55443 [egg-security] use nosniff middleware
+2018-12-06 22:15:16,157 INFO 55443 [egg-security] use xssProtection middleware
+2018-12-06 22:15:16,158 INFO 55443 [egg-security] use xframe middleware
+2018-12-06 22:15:16,158 INFO 55443 [egg-security] use dta middleware
+2018-12-06 22:15:16,158 INFO 55443 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 22:15:16,171 INFO 55443 [egg:core] dump config after load, 9ms
+2018-12-06 22:15:16,208 INFO 55443 [egg-watcher:application] watcher start success
+2018-12-06 22:15:16,235 INFO 55443 [egg:core] dump config after ready, 3ms
+2018-12-06 22:15:19,691 INFO 55445 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 22:15:19,727 INFO 55445 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 22:15:19,727 INFO 55445 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 22:15:19,727 INFO 55445 [egg-multipart] stream mode enable
+2018-12-06 22:15:19,996 INFO 55445 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 22:15:19,998 INFO 55445 [egg-security] use methodnoallow middleware
+2018-12-06 22:15:19,998 INFO 55445 [egg-security] use noopen middleware
+2018-12-06 22:15:19,999 INFO 55445 [egg-security] use nosniff middleware
+2018-12-06 22:15:20,000 INFO 55445 [egg-security] use xssProtection middleware
+2018-12-06 22:15:20,000 INFO 55445 [egg-security] use xframe middleware
+2018-12-06 22:15:20,000 INFO 55445 [egg-security] use dta middleware
+2018-12-06 22:15:20,000 INFO 55445 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 22:15:20,010 INFO 55445 [egg:core] dump config after load, 5ms
+2018-12-06 22:15:20,050 INFO 55445 [egg-watcher:application] watcher start success
+2018-12-06 22:15:20,083 INFO 55445 [egg:core] dump config after ready, 5ms
+2018-12-06 22:20:56,273 INFO 55563 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 22:20:56,312 INFO 55563 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 22:20:56,312 INFO 55563 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 22:20:56,313 INFO 55563 [egg-multipart] stream mode enable
+2018-12-06 22:20:56,763 INFO 55563 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 22:20:56,766 INFO 55563 [egg-security] use methodnoallow middleware
+2018-12-06 22:20:56,767 INFO 55563 [egg-security] use noopen middleware
+2018-12-06 22:20:56,767 INFO 55563 [egg-security] use nosniff middleware
+2018-12-06 22:20:56,768 INFO 55563 [egg-security] use xssProtection middleware
+2018-12-06 22:20:56,768 INFO 55563 [egg-security] use xframe middleware
+2018-12-06 22:20:56,768 INFO 55563 [egg-security] use dta middleware
+2018-12-06 22:20:56,768 INFO 55563 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 22:20:56,777 INFO 55563 [egg:core] dump config after load, 5ms
+2018-12-06 22:20:56,815 INFO 55563 [egg-watcher:application] watcher start success
+2018-12-06 22:20:56,836 INFO 55563 [egg:core] dump config after ready, 4ms
+2018-12-06 22:20:57,363 INFO 55565 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 22:20:57,392 INFO 55565 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 22:20:57,392 INFO 55565 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 22:20:57,393 INFO 55565 [egg-multipart] stream mode enable
+2018-12-06 22:20:57,656 INFO 55565 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 22:20:57,658 INFO 55565 [egg-security] use methodnoallow middleware
+2018-12-06 22:20:57,658 INFO 55565 [egg-security] use noopen middleware
+2018-12-06 22:20:57,659 INFO 55565 [egg-security] use nosniff middleware
+2018-12-06 22:20:57,659 INFO 55565 [egg-security] use xssProtection middleware
+2018-12-06 22:20:57,659 INFO 55565 [egg-security] use xframe middleware
+2018-12-06 22:20:57,660 INFO 55565 [egg-security] use dta middleware
+2018-12-06 22:20:57,660 INFO 55565 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 22:20:57,669 INFO 55565 [egg:core] dump config after load, 5ms
+2018-12-06 22:20:57,711 INFO 55565 [egg-watcher:application] watcher start success
+2018-12-06 22:20:57,738 INFO 55565 [egg:core] dump config after ready, 3ms
+2018-12-06 22:22:23,199 INFO 55611 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 22:22:23,246 INFO 55611 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 22:22:23,246 INFO 55611 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 22:22:23,246 INFO 55611 [egg-multipart] stream mode enable
+2018-12-06 22:22:23,663 INFO 55611 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 22:22:23,666 INFO 55611 [egg-security] use methodnoallow middleware
+2018-12-06 22:22:23,667 INFO 55611 [egg-security] use noopen middleware
+2018-12-06 22:22:23,667 INFO 55611 [egg-security] use nosniff middleware
+2018-12-06 22:22:23,668 INFO 55611 [egg-security] use xssProtection middleware
+2018-12-06 22:22:23,668 INFO 55611 [egg-security] use xframe middleware
+2018-12-06 22:22:23,669 INFO 55611 [egg-security] use dta middleware
+2018-12-06 22:22:23,669 INFO 55611 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 22:22:23,679 INFO 55611 [egg:core] dump config after load, 6ms
+2018-12-06 22:22:23,719 INFO 55611 [egg-watcher:application] watcher start success
+2018-12-06 22:22:23,738 INFO 55611 [egg:core] dump config after ready, 2ms
+2018-12-06 22:22:32,121 INFO 55619 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 22:22:32,161 INFO 55619 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 22:22:32,161 INFO 55619 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 22:22:32,161 INFO 55619 [egg-multipart] stream mode enable
+2018-12-06 22:22:32,415 INFO 55619 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 22:22:32,417 INFO 55619 [egg-security] use methodnoallow middleware
+2018-12-06 22:22:32,417 INFO 55619 [egg-security] use noopen middleware
+2018-12-06 22:22:32,417 INFO 55619 [egg-security] use nosniff middleware
+2018-12-06 22:22:32,418 INFO 55619 [egg-security] use xssProtection middleware
+2018-12-06 22:22:32,418 INFO 55619 [egg-security] use xframe middleware
+2018-12-06 22:22:32,418 INFO 55619 [egg-security] use dta middleware
+2018-12-06 22:22:32,418 INFO 55619 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 22:22:32,427 INFO 55619 [egg:core] dump config after load, 5ms
+2018-12-06 22:22:32,469 INFO 55619 [egg-watcher:application] watcher start success
+2018-12-06 22:22:32,494 INFO 55619 [egg:core] dump config after ready, 3ms
+2018-12-06 22:22:42,730 INFO 55624 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 22:22:42,761 INFO 55624 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 22:22:42,761 INFO 55624 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 22:22:42,762 INFO 55624 [egg-multipart] stream mode enable
+2018-12-06 22:22:43,000 INFO 55624 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 22:22:43,003 INFO 55624 [egg-security] use methodnoallow middleware
+2018-12-06 22:22:43,003 INFO 55624 [egg-security] use noopen middleware
+2018-12-06 22:22:43,004 INFO 55624 [egg-security] use nosniff middleware
+2018-12-06 22:22:43,004 INFO 55624 [egg-security] use xssProtection middleware
+2018-12-06 22:22:43,004 INFO 55624 [egg-security] use xframe middleware
+2018-12-06 22:22:43,004 INFO 55624 [egg-security] use dta middleware
+2018-12-06 22:22:43,004 INFO 55624 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 22:22:43,014 INFO 55624 [egg:core] dump config after load, 6ms
+2018-12-06 22:22:43,047 INFO 55624 [egg-watcher:application] watcher start success
+2018-12-06 22:22:43,070 INFO 55624 [egg:core] dump config after ready, 4ms
+2018-12-06 22:22:43,589 INFO 55625 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 22:22:43,622 INFO 55625 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 22:22:43,622 INFO 55625 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 22:22:43,623 INFO 55625 [egg-multipart] stream mode enable
+2018-12-06 22:22:43,881 INFO 55625 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 22:22:43,883 INFO 55625 [egg-security] use methodnoallow middleware
+2018-12-06 22:22:43,883 INFO 55625 [egg-security] use noopen middleware
+2018-12-06 22:22:43,884 INFO 55625 [egg-security] use nosniff middleware
+2018-12-06 22:22:43,884 INFO 55625 [egg-security] use xssProtection middleware
+2018-12-06 22:22:43,884 INFO 55625 [egg-security] use xframe middleware
+2018-12-06 22:22:43,885 INFO 55625 [egg-security] use dta middleware
+2018-12-06 22:22:43,885 INFO 55625 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 22:22:43,894 INFO 55625 [egg:core] dump config after load, 6ms
+2018-12-06 22:22:43,937 INFO 55625 [egg-watcher:application] watcher start success
+2018-12-06 22:22:43,957 INFO 55625 [egg:core] dump config after ready, 3ms
+2018-12-06 22:22:58,525 INFO 55637 [egg:logger] init all loggers with options: {"dir":"/Users/mac/Roy_Doc/webSite/admin/server/logs/sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-06 22:22:58,555 INFO 55637 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-06 22:22:58,555 INFO 55637 [egg-schedule]: register schedule /Users/mac/Roy_Doc/webSite/admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-06 22:22:58,555 INFO 55637 [egg-multipart] stream mode enable
+2018-12-06 22:22:58,796 INFO 55637 [egg-static] starting static serve /public/ -> /Users/mac/Roy_Doc/webSite/admin/server/app/public
+2018-12-06 22:22:58,798 INFO 55637 [egg-security] use methodnoallow middleware
+2018-12-06 22:22:58,799 INFO 55637 [egg-security] use noopen middleware
+2018-12-06 22:22:58,799 INFO 55637 [egg-security] use nosniff middleware
+2018-12-06 22:22:58,799 INFO 55637 [egg-security] use xssProtection middleware
+2018-12-06 22:22:58,800 INFO 55637 [egg-security] use xframe middleware
+2018-12-06 22:22:58,800 INFO 55637 [egg-security] use dta middleware
+2018-12-06 22:22:58,800 INFO 55637 [egg-security] compose 6 middlewares into one security middleware
+2018-12-06 22:22:58,809 INFO 55637 [egg:core] dump config after load, 5ms
+2018-12-06 22:22:58,840 INFO 55637 [egg-watcher:application] watcher start success
+2018-12-06 22:22:58,864 INFO 55637 [egg:core] dump config after ready, 4ms

@@ -1,7 +1,9 @@
 export default {
   'menu.home': '首页',
   'menu.users': '用户管理',
-  'menu.users.codes': '邀请码',
+  'menu.article': '文章管理',
+  'menu.article.list': '文章列表',
+  'menu.article.edit': '编辑文章',
   'menu.dashboard': 'Dashboard',
   'menu.dashboard.analysis': '分析页',
   'menu.dashboard.monitor': '监控页',
